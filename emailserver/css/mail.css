@@ -1,0 +1,331 @@
+a{
+text-decoration: none;
+color: inherit;
+
+
+}
+#main{
+background-image: url("../gallery/six.jpg");
+Filter: Chroma(Color = #FFFFFF);
+background-size:100% 100%;
+height: 900px;
+width: 100%;
+
+visibility: visible;
+position:static;
+}
+.mail-header-div{
+display: inline-block;
+
+}
+#one{
+height: 60px;
+border: .5px;
+border-style:solid;
+border-bottom-color: white;
+border-width: 1.5px;
+width: 100%;
+/*background-color: steelblue;*/
+
+font-family: "Roboto","Helvetica",arial,sans-serif;
+font-size: 30px;
+overflow: visible;
+
+}
+#header_Buttons{
+width:100%;
+position:relative;
+
+
+margin-top:-20px;
+}
+.header_menu_buttons{
+display:inline-block;
+
+}
+
+#corrnor-settings{
+height:27px;
+width:28px;
+background-color: transparent;
+
+cursor:pointer;
+border-radius:3px;
+
+background-image:url(../Icons/Settings_25px.png);
+background-size:100%  100%;
+
+transition: .8s;
+
+border-color:grey;
+}
+#corrnor-settings:hover {
+transform:rotate(30deg);
+}
+
+#corrnor-logout{
+height:27px;
+width:28px;
+background-color: transparent;
+margin-left:93%;
+
+cursor:pointer;
+border-radius:3px;
+
+background-image:url(../Icons/Logout.png);
+background-size:100%  100%;
+position:relative;
+transition: .1s;
+
+border-color:grey;
+}
+#corrnor-logout:hover {
+height:27.5px;
+width:28px;
+
+}
+
+#corrnor-dropdown:hover{
+
+height:25px;
+width:29px;
+
+}
+#corrnor-dropdownmenu{
+
+height:400px;
+width:128px;
+background-color:blue;
+visibility: visible;
+position:static;
+margin-left:90%;
+border-radius:5px;
+
+}
+
+
+
+#two{
+height: 30px;
+width: 100%;
+background-color: silver;
+position:static;
+
+}
+
+.homepage{
+background-image: url(../gallery/laptop-cafe-girl-blonde-141.jpg);
+background-size:100%  100%;
+background-position:inherit;
+}
+.register{
+/*background-color: pink;*/
+	
+background-position:top-right;
+background-repeat: no-repeat;
+
+}
+
+#body_div{
+height: 750px;
+width: 100%;
+background-color: transparent;
+position: absolute;
+
+}
+
+#body_div-regis{
+
+height: 600px;
+width: 100%;
+background-color: transparent;
+position: absolute;
+
+}
+
+#navigation-div{
+height: 650px;
+width: 15%;
+background-color: white;
+color: white;
+overflow: auto;
+/*position: static;*/
+font-family: arial;
+
+
+
+background-size:100% 100%;
+}
+
+#body_div-email{
+height: 650px;
+width: 80%;
+margin-left: -8px;
+background-color: white;
+/*background-image: url("../gallery/two.jpg");*/
+background-size:100% 600px;
+
+background-repeat: no-repeat;
+/*position: absolute;*/
+overflow: auto;
+
+}
+.ont-two{
+position: static;
+display: inline-block;
+background-repeat: no-repeat;
+}
+
+#email-search{
+background-color: transparent;
+border-style:solid;
+border-color: white;
+border-width: 1px;
+height:40px;
+width:400px;
+position:relative;
+}
+#mail-search-input{
+width: 330px;
+height:30px;
+
+}
+#susi_div{
+position: absolute;
+height: 220px;
+width: 440px;
+fill:red;
+background-color: white;
+opacity: .98;
+left: 35%;
+top: 10%;
+border-radius: 10px;
+
+padding-left: 10px;
+}
+.susi{
+
+margin-top:15px;
+}
+
+#sisi_id{
+background-color:white;
+color: white; 
+width:14px; 
+height:16px; 
+margin-left:426px; 
+margin-top:-5.5px;  
+cursor:pointer;
+border-radius: 50px;
+padding-left:3px; 
+background-image:url(../Icons/Cancel_50px_2.png);
+background-size:100%  100%;
+}
+
+
+
+
+#table-containing-div{
+margin-top: 12px;
+margin-left: 15px;
+font-family: "Roboto","Helvetica",arial,sans-serif;
+font-size: 13px;
+
+}
+
+#outside_welcome_div{
+background-color: transparent;
+margin-top:80px; 
+
+
+
+
+
+
+}
+#welcome_div{
+font-family: "Roboto","Helvetica",arial,sans-serif;
+position: fixed;
+opacity:0.55;
+padding-top: 65px;
+
+height: 280px;
+width: 280px;
+background-color: lightgrey;
+margin-left: 20%;
+
+border-radius: 50%;
+
+position: relative;
+overflow: hidden;
+transition:1s;
+}
+
+#welcome_div:hover{
+opacity:0.7;
+transition: .8s;
+
+}
+
+#button_div{
+
+	background-color:silver;
+margin-top: 22.5px;
+margin-left: 20px;
+height: 610px;
+width: 250px;
+}
+.buttons{
+	cursor:pointer;
+	color: white;
+	font-size: 20px;
+height: 40px;
+width: 220px;
+background-color:green;
+transition: .5s;
+border-radius: 8px;
+}
+
+#button1:hover {
+opacity:0.9;
+background-color:#32cd32;
+transition: 1.5s;
+}
+#button2:hover {
+opacity:0.9;
+background-color:#32cd32;
+transition: 1.5s;
+}
+
+#footer-div{
+
+
+height: 120px;
+width: 100%;
+background-color: steelblue;
+/*margin-top: 100px;*/
+
+}
+
+#footer1{
+	/*
+position: fixed;
+    background: rgba(0,0,0,0.7);
+    width: 100%;
+    height: 100%;
+    left: 0;
+    top: 0;
+    z-index: 99999;
+    */
+/*From BQE Core */
+    position: fixed;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(80,80,80,.2);
+    display: none;
+    z-index: 2;
+    pointer-events: visible;
+ 
+}
+
+}

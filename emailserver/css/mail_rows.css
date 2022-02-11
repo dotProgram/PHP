@@ -1,0 +1,52 @@
+#inbox_table > tr,td{
+border-bottom-width:thin;
+border-bottom-style:solid;
+border-bottom-color:white;
+
+
+}
+
+#delete_button{
+background-color:#2790e6; 
+border-color:#2790e6;
+border-bottom-color:#2790e6;
+border-radius:5px;
+height:30px;
+width:30px;
+cursor:pointer;
+}
+#delete_button > img{
+margin-left:-5px;
+
+}
+#inbox_table{
+radius:15px;
+
+}
+
+#row_headding{
+background-color: lightsteelblue;
+
+}
+
+
+.rows{
+
+
+width: 100%;
+background-color: #e2e2e2;
+font-family: arial;
+font-size: 14.5px;
+cursor:pointer;
+}
+
+.rows_notread{
+
+
+width: 100%;
+background-color: whitesmoke;
+font-weight:bold;
+font-family: "Roboto","Helvetica",arial,sans-serif;
+font-size: 14.5px;
+cursor:pointer;
+}

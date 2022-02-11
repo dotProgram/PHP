@@ -1,0 +1,27 @@
+SQL QUERIES
+1.INBOX
+CREATE TABLE inbox (
+no MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,
+source_id VARCHAR(20) NOT NULL,
+source_id_name VARCHAR(60) NOT NULL,
+subject VARCHAR(120) NOT NULL,
+email_body VARCHAR(2048) NOT NULL,
+message_time DATETIME NOT NULL,
+read_status_ TINYINT(1) NOT NULL,
+delete_status_ TINYINT(1) NOT NULL,
+PRIMARY KEY (no)
+);
+
+1.sent
+CREATE TABLE sent (
+no MEDIUMINT UNSIGNED NOT NULL AUTO_INCREMENT,
+destination_id VARCHAR(20) NOT NULL,
+destination_id_name VARCHAR(60) NOT NULL,
+subject VARCHAR(120) NOT NULL,
+email_body VARCHAR(2048) NOT NULL,
+message_time DATETIME NOT NULL,
+read_status_ TINYINT(1) NOT NULL,
+delete_status_ TINYINT(1) NOT NULL,
+PRIMARY KEY (no)
+);
+

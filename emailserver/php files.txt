@@ -1,0 +1,23 @@
+
+Connection string.php
+Session Management
+
+	Inbox Mails.php
+	Delete Mails.php
+	Sent Mails.php
+	Edit Profile
+
+
+ACTION PHP
+
+/delete item
+/forward mail
+/reply mail 
+/Add attachments with email.
+
+
+
+
+----------------------------------
+On Registering, Create Inbox, Outbox, sent Mails, Deleted mails
+
